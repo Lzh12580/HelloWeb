@@ -5,5 +5,5 @@ void main() {
   int b = 2;
   int c = a + b;
   querySelector('#RipVanWinkle')!.innerHtml =
-      '诶，如果看到这句话，说明Dart已经集成到了HTML中了！<br/> $c = $a + $b';
+      'Dart已经集成到了HTML中!<br/> $c = $a + $b';
 }
